@@ -66,7 +66,8 @@ Rectangle {
 
 /*##^##
 Designer {
-    D{i:0}D{i:1;cameraSpeed3d:25;cameraSpeed3dMultiplier:1}
+    D{i:0;matPrevEnvDoc:"SkyBox";matPrevEnvValueDoc:"preview_studio";matPrevModelDoc:"#Sphere"}
+D{i:1;cameraSpeed3d:25;cameraSpeed3dMultiplier:1}D{i:3;cameraSpeed3d:25;cameraSpeed3dMultiplier:1}
 }
 ##^##*/
 

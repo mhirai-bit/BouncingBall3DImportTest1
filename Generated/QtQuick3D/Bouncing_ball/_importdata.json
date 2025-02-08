@@ -88,7 +88,7 @@
             "description": "This step will perform a global scale of the model.",
             "name": "Enable Global Scale",
             "type": "Boolean",
-            "value": true
+            "value": false
         },
         "globalScaleValue": {
             "conditions": [
@@ -101,7 +101,7 @@
             "description": "Global Scale factor.",
             "name": "Global Scale Value",
             "type": "Real",
-            "value": 0
+            "value": 1
         },
         "improveCacheLocality": {
             "description": "Reorders triangles for better vertex cache locality.",
@@ -255,7 +255,7 @@
             "description": "Record keyframe data as binary files",
             "name": "Use Binary Keyframes",
             "type": "Boolean",
-            "value": true
+            "value": false
         },
         "useFloatJointIndices": {
             "description": "Stores joint indices as floating point numbers for GLES 2.0.",
@@ -264,5 +264,5 @@
             "value": false
         }
     },
-    "source_scene": "/Users/mainuser/Documents/Blender_Projects/bouncing_ball/exports/bouncing_ball.fbx"
+    "source_scene": "/Users/mainuser/Documents/Projects/BouncingBall3DImportTest/bouncing_ball.fbx"
 }
