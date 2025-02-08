@@ -1,0 +1,3 @@
+*.qtds
+*build*
+CMakeLists.txt.user
