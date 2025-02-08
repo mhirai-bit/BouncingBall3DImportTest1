@@ -81,14 +81,6 @@ Node {
         startFrame: 0
         endFrame: 0
         currentFrame: 0
-        enabled: true
-        animations: TimelineAnimation {
-            duration: 0
-            from: 0
-            to: 0
-            running: true
-            loops: Animation.Infinite
-        }
         KeyframeGroup {
             target: sphere
             property: "rotation"
@@ -105,14 +97,6 @@ Node {
         startFrame: 0
         endFrame: 1709
         currentFrame: 0
-        enabled: true
-        animations: TimelineAnimation {
-            duration: 1709
-            from: 0
-            to: 1709
-            running: true
-            loops: Animation.Infinite
-        }
         KeyframeGroup {
             target: sphere
             property: "position"
@@ -465,14 +449,6 @@ Node {
         startFrame: 0
         endFrame: 1709
         currentFrame: 0
-        enabled: true
-        animations: TimelineAnimation {
-            duration: 1709
-            from: 0
-            to: 1709
-            running: true
-            loops: Animation.Infinite
-        }
         KeyframeGroup {
             target: empty
             property: "position"
@@ -691,6 +667,19 @@ Node {
             baseColor: "#ffcccccc"
         }
     }
+
+    // An exported mapping of Timelines (--manualAnimations)
+    property var timelineMap: {
+        "Sphere|CubeAction": sphere_CubeAction_timeline,
+        "Sphere|EmptyAction": sphere_EmptyAction_timeline,
+        "Empty|EmptyAction": empty_EmptyAction_timeline,
+    }
+    // A simple list of Timelines (--manualAnimations)
+    property var timelineList: [
+        sphere_CubeAction_timeline,
+        sphere_EmptyAction_timeline,
+        empty_EmptyAction_timeline,
+    ]
 }
 
 /*##^##

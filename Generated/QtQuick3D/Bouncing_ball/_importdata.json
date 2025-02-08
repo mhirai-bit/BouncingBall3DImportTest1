@@ -132,7 +132,7 @@
             "description": "No TimelineAnimations are generated for Timelines so that they can be manually controlled",
             "name": "Use Manual Animations",
             "type": "Boolean",
-            "value": false
+            "value": true
         },
         "optimizeGraph": {
             "description": "A postprocessing step to optimize the scene hierarchy.",
